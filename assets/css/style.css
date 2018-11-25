@@ -260,7 +260,7 @@ figure.effect-layla:hover figcaption::after, figure.effect-layla:hover h2, figur
 .contact_form input[type="submit"]{border:medium none; color:#fff; height:35px; padding:5px 10px; -webkit-transition:all 0.5s; -o-transition:all 0.5s; transition:all 0.5s}
 .contact_form input[type="submit"]:hover{border:1px solid #d083cf}
 .paginationlowerpage {display: inline-block;}
-.paginationlowerpage a {color: black; float: center; padding: 8px 16px; text-decoration: none; transition: background-color .3s;}
+.paginationlowerpage a {color: black; float: left; padding: 8px 16px; text-decoration: none; transition: background-color .3s;}
 .paginationlowerpage a.active { background-color: #4CAF50; color: white;}
 .paginationlowerpage a:hover:not(.active) {background-color: #ddd;}
 @media(max-width:1199px ){.logo_area{width:34%}.add_banner{width:580px}.nav-tabs > li{width:32.3%}.photograph_nav li{width:31.5%}
