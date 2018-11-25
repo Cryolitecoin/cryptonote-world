@@ -99,13 +99,23 @@
           <div class="single_page">
             <h1>Comment compiler Xmrig sur Ubuntu 18.04 Server</h1>
             <div class="single_page_content"> <img class="img-center" src="../../../../../images/xmrig2.8.3.png" alt="">
-              <h2>Configurer Ubuntu pour être capable de compiler Xmrig</h2>
+              <p>Configurer Ubuntu pour être capable de compiler Xmrig</p>
+			  <code>sudo apt-get install git build-essential cmake libuv1-dev libmicrohttpd-dev libssl-dev</code>
+			  <p>Cloner le répertoire de Xmrig sur github</p>
+			  <code>git clone https://github.com/xmrig/xmrig.git</code>
+			  <p>Après cela entrer dans le répertoire de xmrig</p>
+			  <code>cd xmrig</code>
+			  <p>vous avez maintenant besoin de créér le répertoire build pour compiler</p>
+			  <code>mkdir build</code>
+			  <p>Accèder aux répertoire que vous venez de créér (build)</p>
+			  <code>cd build</code>
+			  <p>cmake pour configurer la compilation</p>
+			  <code>cmake ..</code>
+			  <p>Si aucune erreur n'est survenue commencer la compilation.</p>
+			  <code>make</code>
 			  <code></code>
 			  <code></code>
 			  <code></code>
-			  <code></code>
-			  <code></code>
-			  <p></p>
 			  <p></p>
 			  <p></p>
 			  <p></p>
