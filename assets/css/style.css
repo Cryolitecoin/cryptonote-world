@@ -274,7 +274,7 @@ figure.effect-layla:hover figcaption::after, figure.effect-layla:hover h2, figur
 .single_post_contentdev > h2{background:none repeat scroll 0 0 #151515; color:#fff; font-family:'Oswald',sans-serif; font-size:18px; font-weight:400; margin-bottom:10px; margin-left:0; margin-top:5px; padding:0; position:relative; text-align:center; text-transform:uppercase; margin-bottom:20px}
 .single_post_contentdev > h2 span{padding:4px 10px}
 .single_post_contentdev { background-color: #aaa; padding: 20px; margin-top: 20px;}
-.responsiveimg { width: 100%; max-width: 400px; height: auto;}
+.responsiveimg { float:left; width: 100%; max-width: 400px; height: auto;}
 
 
 @media(max-width:1199px ){.logo_area{width:34%}.add_banner{width:580px}.nav-tabs > li{width:32.3%}.photograph_nav li{width:31.5%}
